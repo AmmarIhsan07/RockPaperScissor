@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #9A97E1;
+}
+
+.container {
+  margin: auto;
+  width: 95%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h2 {
+  font-size: 50px;
+}
+
+.wrapper {
+  margin-top: 35px;
+  margin-bottom: 200px;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.move_selection {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.move_selection button {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  height: 6rem;
+  width: 6rem;
+  border-style: solid;
+  border-radius: 3rem;
+  background-color: #735290;
+  color: yellow;
+  cursor: pointer;
+  user-select: none;
+}
+
+.move_selection button:hover {
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  height: 6rem;
+  width: 6rem;
+  border-style: solid;
+  border-radius: 3rem;
+  background-color: #735290;
+  color: yellow;
+  opacity: 0.8;
+  cursor: pointer;
+  user-select: none;
+}
+
+.show_result {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.btn_reset {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.btn_reset button {
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  height: 30px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.btn_reset button:hover {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  height: 30px;
+  margin: 15px;
+  cursor: pointer;
+}
